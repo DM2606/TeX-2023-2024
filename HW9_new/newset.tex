@@ -1,0 +1,10 @@
+\newcommand{\newset}[2][]{\ifx\relax#1\relax
+     \expandafter\gdef\csname #2{\@\ifstar{\ensuremath{\mathbb{#2}}}}
+     \expandafter\gdef\csname #2*{\@\ifstar{\ensuremath{\mathfrak{#2}}}}
+\else
+     \expandafter\gdef\csname #2{\@\ifstar{#1}}
+\fi}
+
+
+\newset{R}
+\newset{C}
