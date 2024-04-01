@@ -1,0 +1,41 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{imports}[2024/02/22 Package to be used as a project template imports' list]
+\RequirePackage{cmap}
+\RequirePackage[utf8]{inputenc}
+\RequirePackage[T2A]{fontenc}
+\RequirePackage[russian]{babel}
+\RequirePackage{amsmath, amsfonts, amssymb, amsthm, dsfont}
+\documentclass{standalone}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{tikz}
+\usepackage{enumitem}
+\usepackage{marvosym}
+\usepackage{wasysym}
+\usepackage{fontawesome5}
+\RequirePackage{xcolor}
+\RequirePackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=red,
+    citecolor=green,
+    pdfstartview=FitH
+}
+\RequirePackage{enumitem}
+\setlist{noitemsep}
+\RequirePackage{geometry}
+\geometry{
+    a4paper,
+    total={170mm,257mm},
+    left=20mm,
+    top=20mm,
+}
+\RequirePackage{indentfirst}
+\linespread{1.25}
+\setlength{\parindent}{1cm}
+\setlength{\parskip}{6pt}
+\setlength{\headheight}{15pt}
+\RequirePackage{comment}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
